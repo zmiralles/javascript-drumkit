@@ -1,5 +1,5 @@
 html {
-    font-family: Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .keys {
@@ -16,11 +16,18 @@ html {
   margin: 4%;
   background: #a1a3b0;
   text-align: center;
-
+  transition: all .07s ease;
 }
 
 .playing {
-
+  background: rgba(210, 255, 82, 1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(210, 255, 82, 1)), color-stop(67%, rgba(145, 232, 66, 1)), color-stop(100%, rgba(145, 232, 66, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1);
 }
 
 kbd {
@@ -28,12 +35,9 @@ kbd {
   position: relative;
   font-size: 3rem;
   font-family: Roboto, sans-serif;
-
 }
 
 .sound {
-
   font-size: 0.7rem;
   font-weight: bold;
-
 }
