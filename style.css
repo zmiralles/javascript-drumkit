@@ -1,0 +1,39 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+.keys {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  width: 18rem;
+  margin: 5rem auto;
+  background: #000;
+  padding: 2px;
+}
+
+.key {
+  border-radius: 5px;
+  margin: 4%;
+  background: #a1a3b0;
+  text-align: center;
+
+}
+
+.playing {
+
+}
+
+kbd {
+  display: block;
+  position: relative;
+  font-size: 3rem;
+  font-family: Roboto, sans-serif;
+
+}
+
+.sound {
+
+  font-size: 0.7rem;
+  font-weight: bold;
+
+}
