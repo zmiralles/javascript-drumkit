@@ -16,7 +16,8 @@ html {
   margin: 4%;
   background: #a1a3b0;
   text-align: center;
-  transition: all .07s ease;
+  transition: all .1s ease;
+
 }
 
 .playing {
@@ -28,6 +29,8 @@ html {
   background: -ms-radial-gradient(center, ellipse cover, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
   background: radial-gradient(ellipse at center, rgba(210, 255, 82, 1) 0%, rgba(145, 232, 66, 1) 67%, rgba(145, 232, 66, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1);
+  transform: scale(1.02);
+
 }
 
 kbd {
